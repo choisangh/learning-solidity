@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data2",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_data",
+						"type": "uint8"
+					}
+				],
+				"name": "setData3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_data",
+						"type": "uint8"
+					}
+				],
+				"name": "setData4",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/FunctionVisibility.sol": "Function"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/FunctionVisibility.sol": {
+			"keccak256": "0xc6dc30b1390d17cb8d8fd794ac15f24959df8e09bd774a505dac8d02954d056b",
+			"urls": [
+				"bzz-raw://17ff83eb26273b182ad182e39c02737e1a8730fd55d8aa10a6b578c1934ed980",
+				"dweb:/ipfs/QmdMtspQRoNutfFgu7mEn5QjbFDJDBbi2b3bYGmwAn8AV8"
+			]
+		}
+	},
+	"version": 1
+}
