@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "generateRandom",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/BlockProperty2.sol": "BlockPropertynew"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/BlockProperty2.sol": {
+			"keccak256": "0xd48c61ec8937562a9ff724897566f0c35e8bfd3076bd99fd5df459978d003622",
+			"urls": [
+				"bzz-raw://b8cc7bc7235c4f961fa2ca577b8ac65c23cd76e4fe950b2fe024c711402b6b96",
+				"dweb:/ipfs/QmasrK19WuNbSgBKYDmnrmyveXtcPpH8n1YZLYw4VoQHgc"
+			]
+		}
+	},
+	"version": 1
+}
