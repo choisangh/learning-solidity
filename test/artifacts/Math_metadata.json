@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "plusData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/TryCatch.sol": "Math"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/TryCatch.sol": {
+			"keccak256": "0x54b981856fb0f025ad4ec1aeb22e532fd35e3a7aeb11e65c8dd8f0aab70ebb5d",
+			"urls": [
+				"bzz-raw://a2d3296965f57eeaf0776b44a8e38291c20ff0a30e471706e4a64af4fc4c5874",
+				"dweb:/ipfs/QmQkQQWkTRCuDEfG8M4D96fhDoyyx6v6E3VPna87ywwSVs"
+			]
+		}
+	},
+	"version": 1
+}

@@ -7,14 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "checkValue",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "msg1",
+				"name": "minPrice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -27,46 +20,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "msg2",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
+				"name": "order",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "msg3",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "msg4",
-				"outputs": [
-					{
-						"internalType": "bytes4",
-						"name": "",
-						"type": "bytes4"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "msg5",
+				"name": "orderList",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -91,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"test/TransactionProperty.sol": "transactionProperty"
+			"test/Assert.sol": "Assert"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -105,11 +72,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"test/TransactionProperty.sol": {
-			"keccak256": "0x3e4d50d281c30f6aa81f574e0ccd98f2bcb1788bd81b36cf379fd9a669acb311",
+		"test/Assert.sol": {
+			"keccak256": "0xae9865f99d4b41e4bb8b0e0ef9ebe25a1eb6d4da051e46c1f10c4a9557b3d350",
 			"urls": [
-				"bzz-raw://d70eb04c842e8df691e57af94299d8726ca5b211425715c4b1d03f0cfa180040",
-				"dweb:/ipfs/QmRCur7KxoMgNTYFzLt6LXhjAtJyZNjEUMk95TzmAW4u4m"
+				"bzz-raw://1f93924708494a8ca798dec624ff214f6fef38974111d7bb9fa7ffdf4b40fe22",
+				"dweb:/ipfs/QmNWY7YioepAgE6bfsVgdKbEJzZf3TXa5HMehwNshEuWiz"
 			]
 		}
 	},
