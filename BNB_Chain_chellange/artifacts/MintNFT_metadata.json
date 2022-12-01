@@ -625,7 +625,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"BNB_Chain_chellange/whitelist.sol": "MintNFT"
+			"BNB_Chain_chellange/HITTHEFROG.sol": "MintNFT"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -743,12 +743,12 @@
 				"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz"
 			]
 		},
-		"BNB_Chain_chellange/whitelist.sol": {
-			"keccak256": "0xec2f1bb8ffd34aad3198e2563d8b6dd25142b3b978b8360a905234dfbae0da6e",
+		"BNB_Chain_chellange/HITTHEFROG.sol": {
+			"keccak256": "0x9d31a08b17108306e08e2119dbdbebaa10d1683abadbbec71259c056e77706b6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1682a3927ff0e16e2cc5a116ad7d778e3b7288014a48a71b3c85d920b483fa47",
-				"dweb:/ipfs/QmSLy6nqQVAX79vgA6y4GbTteFKWWvR6B6p216TZ8NP6kC"
+				"bzz-raw://11e40b96127492996a611ee3342c4377716a5244bab575a6e8098bd792ee96fd",
+				"dweb:/ipfs/QmS9TXgKqKj6AcF3RyNCPJq3SvTDQLX1dHMqDLvcDCTGwX"
 			]
 		}
 	},

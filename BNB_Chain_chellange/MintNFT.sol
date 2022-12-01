@@ -45,4 +45,21 @@ contract MintNFT is ERC721Enumerable{
       return string(abi.encodePacked(metdataURI, '/', Strings.toString(_tokenId), '.json'));
     }
 
+
+    function transferFrom(address from, address to,uint256 tokenId) public override{
+           //solhint-disable-next-line max-line-length
+        require(_isApprovedOrOwner(_msgSender(), tokenId), "ERC721: caller is not token owner or approved");
+
+        _transfer(from, to, tokenId);
+    }
+
+
+
+    function safeTransferFrom(address from,address to,uint256 tokenId,bytes memory data) public override{
+           //solhint-disable-next-line max-line-length
+        require(_isApprovedOrOwner(_msgSender(), tokenId), "ERC721: caller is not token owner or approved");
+
+        _safeTransfer(from, to, tokenId, data);
+    }
+
 }
